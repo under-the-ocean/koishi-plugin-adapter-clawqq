@@ -1,0 +1,33 @@
+{
+  "name": "koishi-plugin-adapter-clawqq",
+  "version": "1.0.0",
+  "description": "Koishi adapter for OpenClaw QQ Bot",
+  "main": "lib/src/index.js",
+  "types": "lib/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "koishi": "^4.17.0",
+    "silk-wasm": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "keywords": [
+    "koishi",
+    "adapter",
+    "openclaw",
+    "qq",
+    "bot"
+  ],
+  "author": "ocean之下",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/under-the-ocean/koishi-plugin-adapter-clawqq.git"
+  },
+  "homepage": "https://space.bilibili.com/3546571704634103"
+}
